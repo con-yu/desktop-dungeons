@@ -1,0 +1,412 @@
+[
+  {
+    "id": 0,
+    "name": "鼠窟",
+    "sub": "潮湿的洞窟深处，鼠群在黑暗中骚动。",
+    "theme": "cave",
+    "power": 1.0,
+    "monsters": [
+      {
+        "id": "rat",
+        "count": 10
+      },
+      {
+        "id": "slime",
+        "count": 8
+      }
+    ],
+    "boss": {
+      "id": "rat",
+      "name": "鼠王",
+      "hp_mul": 6.0,
+      "atk_mul": 2.0,
+      "def_add": 1,
+      "xp_mul": 4,
+      "gold": 30
+    },
+    "shop": false,
+    "start_items": {
+      "potion_hp": 2
+    },
+    "start_gold": 0,
+    "bg": "#0f1218",
+    "floor": "#3b3f4a",
+    "wall": "#575043",
+    "tint": "#ffffff"
+  },
+  {
+    "id": 1,
+    "name": "哥布林营地",
+    "sub": "篝火未熄，掠夺者们正围着战利品吵闹。",
+    "theme": "camp",
+    "power": 1.05,
+    "monsters": [
+      {
+        "id": "rat",
+        "count": 8
+      },
+      {
+        "id": "goblin",
+        "count": 10
+      },
+      {
+        "id": "goblin_archer",
+        "count": 4
+      }
+    ],
+    "boss": {
+      "id": "goblin",
+      "name": "哥布林酋长",
+      "hp_mul": 4.2,
+      "atk_mul": 1.8,
+      "def_add": 2,
+      "xp_mul": 4,
+      "gold": 45
+    },
+    "shop": true,
+    "start_items": {
+      "potion_hp": 2
+    },
+    "start_gold": 15,
+    "bg": "#111310",
+    "floor": "#3a3d33",
+    "wall": "#55503c",
+    "tint": "#ffe2c4"
+  },
+  {
+    "id": 2,
+    "name": "骷髅墓穴",
+    "sub": "石棺一具具打开，亡灵不欢迎活人。",
+    "theme": "crypt",
+    "power": 1.1,
+    "monsters": [
+      {
+        "id": "goblin",
+        "count": 8
+      },
+      {
+        "id": "skeleton",
+        "count": 8
+      },
+      {
+        "id": "zombie",
+        "count": 6
+      }
+    ],
+    "boss": {
+      "id": "skeleton",
+      "name": "骸骨领主",
+      "hp_mul": 4.4,
+      "atk_mul": 1.7,
+      "def_add": 2,
+      "xp_mul": 5,
+      "gold": 55
+    },
+    "shop": true,
+    "start_items": {
+      "potion_hp": 3,
+      "potion_mp": 1
+    },
+    "start_gold": 20,
+    "bg": "#0d1014",
+    "floor": "#40434b",
+    "wall": "#55504a",
+    "tint": "#c9d5e9"
+  },
+  {
+    "id": 3,
+    "name": "蛛网洞穴",
+    "sub": "丝线从头顶垂下，脚下粘着看不清的东西。",
+    "theme": "web",
+    "power": 1.15,
+    "monsters": [
+      {
+        "id": "goblin",
+        "count": 8
+      },
+      {
+        "id": "spider",
+        "count": 8
+      },
+      {
+        "id": "maggot",
+        "count": 6
+      }
+    ],
+    "boss": {
+      "id": "spider",
+      "name": "蛛后",
+      "hp_mul": 4.6,
+      "atk_mul": 1.8,
+      "def_add": 2,
+      "xp_mul": 5,
+      "gold": 60
+    },
+    "shop": false,
+    "start_items": {
+      "potion_hp": 3,
+      "potion_mp": 2
+    },
+    "start_gold": 20,
+    "bg": "#0f1310",
+    "floor": "#333a38",
+    "wall": "#4a4a3f",
+    "tint": "#d5e9cd"
+  },
+  {
+    "id": 4,
+    "name": "熔岩矿坑",
+    "sub": "铁镐丢了一地，热浪扭曲着空气。",
+    "theme": "lava",
+    "power": 1.2,
+    "monsters": [
+      {
+        "id": "goblin",
+        "count": 8
+      },
+      {
+        "id": "maggot",
+        "count": 7
+      },
+      {
+        "id": "fire_imp",
+        "count": 7
+      }
+    ],
+    "boss": {
+      "id": "fire_imp",
+      "name": "熔岩暴君",
+      "hp_mul": 4.0,
+      "atk_mul": 1.8,
+      "def_add": 3,
+      "xp_mul": 5,
+      "gold": 70
+    },
+    "shop": true,
+    "start_items": {
+      "potion_hp": 4,
+      "potion_mp": 2
+    },
+    "start_gold": 25,
+    "bg": "#160d0b",
+    "floor": "#3f2a26",
+    "wall": "#5a2f28",
+    "tint": "#ffc2a2"
+  },
+  {
+    "id": 5,
+    "name": "冰霜地窟",
+    "sub": "呼出的气结成霜，狼群的嚎叫在冰壁间回荡。",
+    "theme": "ice",
+    "power": 1.26,
+    "monsters": [
+      {
+        "id": "goblin",
+        "count": 8
+      },
+      {
+        "id": "wolf",
+        "count": 8
+      },
+      {
+        "id": "skeleton",
+        "count": 6
+      }
+    ],
+    "boss": {
+      "id": "wolf",
+      "name": "霜牙狼王",
+      "hp_mul": 4.2,
+      "atk_mul": 1.7,
+      "def_add": 3,
+      "xp_mul": 5,
+      "gold": 75
+    },
+    "shop": false,
+    "start_items": {
+      "potion_hp": 4,
+      "potion_mp": 2
+    },
+    "start_gold": 25,
+    "bg": "#0a1016",
+    "floor": "#2f3d4a",
+    "wall": "#4a5f6e",
+    "tint": "#b9d5ff"
+  },
+  {
+    "id": 6,
+    "name": "兽人要塞",
+    "sub": "战鼓声从石墙后传来，这里已经很久没有活口走出。",
+    "theme": "fortress",
+    "power": 1.32,
+    "monsters": [
+      {
+        "id": "goblin",
+        "count": 8
+      },
+      {
+        "id": "goblin_archer",
+        "count": 6
+      },
+      {
+        "id": "orc",
+        "count": 8
+      }
+    ],
+    "boss": {
+      "id": "orc",
+      "name": "兽人督军",
+      "hp_mul": 3.4,
+      "atk_mul": 1.6,
+      "def_add": 3,
+      "xp_mul": 5,
+      "gold": 85
+    },
+    "shop": true,
+    "start_items": {
+      "potion_hp": 5,
+      "potion_mp": 3
+    },
+    "start_gold": 30,
+    "bg": "#12100d",
+    "floor": "#3d3a33",
+    "wall": "#5c5346",
+    "tint": "#ffe5bd"
+  },
+  {
+    "id": 7,
+    "name": "巫妖图书馆",
+    "sub": "书页自己翻动，名字被写在最后一页的人都没能离开。",
+    "theme": "library",
+    "power": 1.36,
+    "monsters": [
+      {
+        "id": "goblin",
+        "count": 8
+      },
+      {
+        "id": "skeleton",
+        "count": 8
+      },
+      {
+        "id": "wraith",
+        "count": 6
+      }
+    ],
+    "boss": {
+      "id": "wraith",
+      "name": "巫妖",
+      "hp_mul": 4.2,
+      "atk_mul": 1.6,
+      "def_add": 4,
+      "xp_mul": 6,
+      "gold": 100
+    },
+    "shop": false,
+    "start_items": {
+      "potion_hp": 5,
+      "potion_mp": 3,
+      "scroll_fire": 1
+    },
+    "start_gold": 30,
+    "bg": "#0e0d14",
+    "floor": "#37343f",
+    "wall": "#4f4756",
+    "tint": "#d5c9ed"
+  },
+  {
+    "id": 8,
+    "name": "深渊裂隙",
+    "sub": "脚下是看不见底的裂口，裂口里有东西在往上爬。",
+    "theme": "abyss",
+    "power": 1.42,
+    "monsters": [
+      {
+        "id": "goblin",
+        "count": 9
+      },
+      {
+        "id": "wolf",
+        "count": 6
+      },
+      {
+        "id": "demon",
+        "count": 5
+      },
+      {
+        "id": "golem",
+        "count": 3
+      }
+    ],
+    "boss": {
+      "id": "demon",
+      "name": "深渊领主",
+      "hp_mul": 2.9,
+      "atk_mul": 1.5,
+      "def_add": 4,
+      "xp_mul": 6,
+      "gold": 120
+    },
+    "shop": true,
+    "start_items": {
+      "potion_hp": 5,
+      "potion_mp": 3,
+      "scroll_fire": 1
+    },
+    "start_gold": 35,
+    "bg": "#100a12",
+    "floor": "#332a3a",
+    "wall": "#4a3a52",
+    "tint": "#d9b1d9"
+  },
+  {
+    "id": 9,
+    "name": "龙巢",
+    "sub": "黄金堆成山。守护它的东西，正睁着眼睛等你。",
+    "theme": "lair",
+    "power": 1.5,
+    "monsters": [
+      {
+        "id": "rat",
+        "count": 9
+      },
+      {
+        "id": "goblin",
+        "count": 8
+      },
+      {
+        "id": "fire_imp",
+        "count": 6
+      },
+      {
+        "id": "demon",
+        "count": 5
+      },
+      {
+        "id": "golem",
+        "count": 3
+      }
+    ],
+    "boss": {
+      "id": "demon",
+      "name": "上古巨龙",
+      "hp_mul": 2.7,
+      "atk_mul": 1.3,
+      "def_add": 6,
+      "xp_mul": 8,
+      "gold": 200
+    },
+    "shop": true,
+    "start_items": {
+      "potion_hp": 5,
+      "potion_mp": 3,
+      "scroll_fire": 2,
+      "potion_atk": 1
+    },
+    "start_gold": 40,
+    "bg": "#140e0c",
+    "floor": "#3a2f28",
+    "wall": "#5a4034",
+    "tint": "#ffd5a5"
+  }
+]

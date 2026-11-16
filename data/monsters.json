@@ -1,0 +1,219 @@
+{
+  "rat": {
+    "name": "巨鼠",
+    "hp": 8,
+    "atk": 3,
+    "def": 0,
+    "xp": 3,
+    "gold": 2,
+    "traits": [],
+    "aggro": false,
+    "sprite": "rat",
+    "desc": "地牢里最常见的居民。弱，但从不单独出现。",
+    "tier": 1
+  },
+  "slime": {
+    "name": "史莱姆",
+    "hp": 14,
+    "atk": 4,
+    "def": 1,
+    "xp": 4,
+    "gold": 2,
+    "traits": [],
+    "aggro": false,
+    "sprite": "slime",
+    "desc": "黏稠的绿色胶质，行动迟缓。",
+    "tier": 1
+  },
+  "bat": {
+    "name": "吸血蝠",
+    "hp": 10,
+    "atk": 5,
+    "def": 0,
+    "xp": 4,
+    "gold": 3,
+    "traits": [
+      "aggro"
+    ],
+    "aggro": true,
+    "sprite": "bat",
+    "desc": "会主动扑向猎物，速度快但很脆。",
+    "tier": 1
+  },
+  "goblin": {
+    "name": "哥布林",
+    "hp": 18,
+    "atk": 6,
+    "def": 1,
+    "xp": 6,
+    "gold": 5,
+    "traits": [],
+    "aggro": false,
+    "sprite": "goblin",
+    "desc": "矮小的掠夺者，手里握着锈蚀的短刀。",
+    "tier": 1
+  },
+  "goblin_archer": {
+    "name": "哥布林弓手",
+    "hp": 16,
+    "atk": 7,
+    "def": 1,
+    "xp": 7,
+    "gold": 6,
+    "traits": [
+      "ranged"
+    ],
+    "aggro": false,
+    "sprite": "goblin_archer",
+    "desc": "会在 3 格外放箭，贴身反而打不准。",
+    "tier": 2
+  },
+  "skeleton": {
+    "name": "骷髅兵",
+    "hp": 24,
+    "atk": 8,
+    "def": 3,
+    "xp": 9,
+    "gold": 6,
+    "traits": [
+      "undead"
+    ],
+    "aggro": false,
+    "sprite": "skeleton",
+    "desc": "亡灵：物理攻击对它只能造成一半伤害，法术效果加倍。",
+    "tier": 2
+  },
+  "zombie": {
+    "name": "腐尸",
+    "hp": 32,
+    "atk": 7,
+    "def": 1,
+    "xp": 8,
+    "gold": 4,
+    "traits": [
+      "undead",
+      "poison"
+    ],
+    "aggro": false,
+    "sprite": "zombie",
+    "desc": "亡灵。攻击附带剧毒，会让你持续掉血。",
+    "tier": 2
+  },
+  "spider": {
+    "name": "巨蛛",
+    "hp": 20,
+    "atk": 8,
+    "def": 2,
+    "xp": 9,
+    "gold": 7,
+    "traits": [
+      "poison"
+    ],
+    "aggro": false,
+    "sprite": "spider",
+    "desc": "毒牙能造成持续伤害，别和它打消耗战。",
+    "tier": 2
+  },
+  "maggot": {
+    "name": "酸虫",
+    "hp": 18,
+    "atk": 7,
+    "def": 2,
+    "xp": 8,
+    "gold": 5,
+    "traits": [
+      "acid"
+    ],
+    "aggro": false,
+    "sprite": "maggot",
+    "desc": "喷吐酸液，被击中会永久降低你的防御。",
+    "tier": 2
+  },
+  "fire_imp": {
+    "name": "火小鬼",
+    "hp": 22,
+    "atk": 9,
+    "def": 2,
+    "xp": 10,
+    "gold": 8,
+    "traits": [
+      "regen"
+    ],
+    "aggro": true,
+    "sprite": "fire_imp",
+    "desc": "每回合自我灼烧愈合 2 点生命，拖不得。",
+    "tier": 2
+  },
+  "wolf": {
+    "name": "冰狼",
+    "hp": 28,
+    "atk": 10,
+    "def": 3,
+    "xp": 12,
+    "gold": 8,
+    "traits": [
+      "aggro"
+    ],
+    "aggro": true,
+    "sprite": "wolf",
+    "desc": "会主动追击的掠食者，成群时非常危险。",
+    "tier": 2
+  },
+  "orc": {
+    "name": "兽人战士",
+    "hp": 40,
+    "atk": 12,
+    "def": 5,
+    "xp": 16,
+    "gold": 12,
+    "traits": [],
+    "aggro": false,
+    "sprite": "orc",
+    "desc": "重甲巨斧，正面硬拼的代价很高。",
+    "tier": 3
+  },
+  "wraith": {
+    "name": "怨灵",
+    "hp": 30,
+    "atk": 11,
+    "def": 4,
+    "xp": 14,
+    "gold": 10,
+    "traits": [
+      "undead",
+      "lifesteal"
+    ],
+    "aggro": false,
+    "sprite": "wraith",
+    "desc": "亡灵。攻击会吸取你的生命来治疗自己。",
+    "tier": 3
+  },
+  "golem": {
+    "name": "石魔",
+    "hp": 60,
+    "atk": 12,
+    "def": 9,
+    "xp": 20,
+    "gold": 14,
+    "traits": [],
+    "aggro": false,
+    "sprite": "golem",
+    "desc": "超高防御的傀儡，物理攻击收效甚微。",
+    "tier": 3
+  },
+  "demon": {
+    "name": "深渊恶魔",
+    "hp": 46,
+    "atk": 14,
+    "def": 6,
+    "xp": 20,
+    "gold": 15,
+    "traits": [
+      "lifesteal"
+    ],
+    "aggro": false,
+    "sprite": "demon",
+    "desc": "每次攻击都会夺走你的一部分生命。",
+    "tier": 3
+  }
+}

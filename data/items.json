@@ -1,0 +1,50 @@
+{
+  "potion_hp": {
+    "name": "治疗药水",
+    "type": "potion",
+    "desc": "立刻回复 45% 最大生命。",
+    "price": 14,
+    "heal_pct": 45,
+    "sprite": "potion_hp"
+  },
+  "potion_mp": {
+    "name": "法力药水",
+    "type": "potion",
+    "desc": "立刻回复 50% 最大法力。",
+    "price": 12,
+    "mana_pct": 50,
+    "sprite": "potion_mp"
+  },
+  "potion_atk": {
+    "name": "力量药剂",
+    "type": "perm",
+    "desc": "本关永久 +3 攻击力。",
+    "price": 26,
+    "atk": 3,
+    "sprite": "potion_atk"
+  },
+  "potion_def": {
+    "name": "石肤药剂",
+    "type": "perm",
+    "desc": "本关永久 +2 防御。",
+    "price": 24,
+    "def": 2,
+    "sprite": "potion_def"
+  },
+  "potion_xp": {
+    "name": "智慧药水",
+    "type": "potion",
+    "desc": "立刻获得 25 点经验。",
+    "price": 30,
+    "xp": 25,
+    "sprite": "potion_xp"
+  },
+  "scroll_fire": {
+    "name": "烈焰卷轴",
+    "type": "scroll",
+    "desc": "对 3 格内敌人造成 28 点无视防御的伤害，不消耗法力。",
+    "price": 20,
+    "damage": 28,
+    "sprite": "scroll_fire"
+  }
+}
